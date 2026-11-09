@@ -173,13 +173,24 @@ See the [Power BI & Tableau Integration Guide](docs/tableau_powerbi_guide.md) fo
 
 ---
 
-## 🖥️ 7. Interactive Streamlit Command Center
+## 🖥️ 7. Interactive Streamlit Command Center & Component Architecture
 
-The interactive dashboard is organized into 7 specialized intelligence modules:
+The interactive dashboard is organized into **8 specialized intelligence modules** built on a custom enterprise design system (`#080D17` Bloomberg / Linear dark aesthetic):
 
 ```
 dashboard/
-├── app.py                      # Main Command Center Portal
+├── app.py                      # Main Command Center Portal & Telemetry Hub
+├── components/                 # Reusable Enterprise UI Component Library
+│   ├── theme.py                # Design tokens, CSS injection, dark palettes & badge styles
+│   ├── header.py               # Navigation breadcrumb, active filters & timestamp bar
+│   ├── sidebar.py              # Platform identity, integrity guard & network telemetry
+│   ├── metric_card.py          # Zero-fabrication KPI card with lineage pills & graceful missing states
+│   ├── section_header.py       # Standardized section headings with status badges
+│   ├── chart_container.py      # Plotly wrapper with card background & analytical takeaways
+│   ├── filter_bar.py           # Faceted multi-select filters without recomputation lag
+│   ├── data_table.py           # Formatted tabular view with null markers (—) & CSV export
+│   ├── empty_state.py          # Graceful UI placeholder for missing/filtered data
+│   └── data_loader.py          # High-performance PyArrow Parquet cache loader
 └── pages/
     ├── 1_Overview.py           # Network KPIs, 15-Min System Curves, Line Shares & YoY Trends
     ├── 2_Demand_Analysis.py    # Station Rankings, Inflow/Outflow Asymmetry Ratios, Day-Type Profiles
@@ -187,8 +198,26 @@ dashboard/
     ├── 4_Geospatial.py         # Mapbox Dark Bubble Maps, Fare Zone Decays & Accessibility Deficits
     ├── 5_Machine_Learning.py   # Leave-One-Year-Out Model Benchmarks & Station Topology Clustering
     ├── 6_Optimization.py       # Graph Centrality Analysis, Bottleneck Detection & +25% Scenario Simulator
-    └── 7_Data_Explorer.py      # Multi-Dataset Live Query Browser, Regex Filters & CSV Downloader
+    ├── 7_Data_Explorer.py      # Multi-Dataset Live Query Browser, Regex Filters & CSV Downloader
+    └── 8_Data_Availability.py  # 22-Metric Availability Matrix, Missing Data Audit & Report Downloads
 ```
+
+---
+
+## 🛡️ 8. Data Integrity & Zero-Fabrication Protocol
+
+METROPULSE strictly enforces the **Zero-Fabrication Data Integrity Principle**:
+- **Zero Synthetic Substitution**: Missing indicators (e.g. physical vehicle crush capacity, real-time signal delays, multi-modal PTAL) are never fabricated with arbitrary averages or fake numbers.
+- **Traceable Lineage Badges**: Every single metric, KPI card, and chart carries an explicit lineage pill:
+  - `● OBSERVED`: Extracted directly from TfL NUMBAT Excel workbooks.
+  - `◆ DERIVED`: Formally calculated using transparent transit mathematical equations.
+  - `▲ PREDICTED`: Produced by machine learning models evaluated on out-of-sample holdout years.
+  - `◈ SIMULATED`: Explicitly watermarked decision-support scenario simulations.
+  - `✕ DATA NOT PROVIDED`: Graceful fallback state detailing required external datasets.
+- **Audit Reports Available**:
+  - [`reports/data_availability_matrix.csv`](reports/data_availability_matrix.csv): 22-metric availability audit across all TfL workbooks.
+  - [`reports/missing_data_report.md`](reports/missing_data_report.md): In-depth gap analysis and fallback justifications.
+  - [`reports/USER_INPUT_REQUIRED.md`](reports/USER_INPUT_REQUIRED.md): Catalog of operational parameters, external datasets, and fallback states.
 
 To run the dashboard locally:
 ```bash

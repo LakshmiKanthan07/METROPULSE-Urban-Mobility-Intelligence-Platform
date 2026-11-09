@@ -1,0 +1,23 @@
+metric_name,category,status,source_workbook,source_worksheet,source_columns,external_req,user_input_req
+Total Passenger Demand,Passenger Analytics,AVAILABLE,All 15 NBT*.xlsx workbooks,"Line_Boarders, Station_Entries, Station_Exits","total, early, am_peak, midday, pm_peak, evening, late",None,None
+Demand by Station,Passenger Analytics,AVAILABLE,All 15 NBT*.xlsx workbooks,"Station_Entries, Station_Exits","nlc, asc, station, total, early, am_peak, midday, pm_peak, evening, late",None,None
+Demand by Line,Passenger Analytics,AVAILABLE,All 15 NBT*.xlsx workbooks,Line_Boarders,"line_code, line_name, total, passengers",None,None
+Demand by Direction,Passenger Analytics,AVAILABLE,All 15 NBT*.xlsx workbooks,"Link_Loads, Station_Boarders, Station_Alighters","direction, total, passengers",None,None
+Demand by 15-Minute Interval,Passenger Analytics,AVAILABLE,All 15 NBT*.xlsx workbooks,"Link_Loads, Station_Entries, Station_Exits","time_interval, start_minute, passengers",None,None
+Passenger Boardings and Alightings,Passenger Analytics,AVAILABLE,All 15 NBT*.xlsx workbooks,"Station_Boarders, Station_Alighters","asc, line, direction, platform, total, passengers",None,None
+Passenger Origin-Destination Matrix,Passenger Analytics,PARTIALLY AVAILABLE,All 15 NBT*.xlsx workbooks,Station_Flows (internal complex movements only),"from_asc, to_asc, from_node, to_node, movement, passengers",TfL Rolling Origin & Destination Survey (RODS) or Oyster/Contactless OD matrix,Approval to restrict display to Station Complex Interchanges rather than full city trips
+Station Entries and Exits,Passenger Analytics,AVAILABLE,All 15 NBT*.xlsx workbooks,"Station_Entries, Station_Exits","asc, nlc, station, fare_zone, total, passengers",None,None
+Train Frequency,Service Analytics,AVAILABLE,All 15 NBT*.xlsx workbooks,Link_Frequencies,"link, line, direction, total, early, am_peak, midday, pm_peak, evening, late",None,None
+Passenger Load Per Train (LPT),Service Analytics,DERIVABLE,All 15 NBT*.xlsx workbooks,"Link_Loads, Link_Frequencies","Link_Loads.total, Link_Frequencies.total",None,None
+Actual Train Crush Capacity,Service Analytics,UNAVAILABLE,None (Not present in NUMBAT workbooks),N/A,N/A,TfL Rolling Stock Capacity Data Sheet,"User approval of nominal rolling stock capacity parameter (e.g., 1,000 pax/train) or external specification lookup table"
+Train Occupancy Percentage,Service Analytics,UNAVAILABLE,None,N/A,N/A,Rolling stock capacity by line,User input on whether to use nominal capacity estimates or suppress metric
+Service Adequacy Index (SAI),Service Analytics,DERIVABLE,All 15 NBT*.xlsx workbooks,"Link_Loads, Link_Frequencies","Link_Loads.passengers, Link_Frequencies.frequency",None,None
+Real-Time Train Delays & Disruptions,Service Analytics,NOT APPLICABLE,"None (NUMBAT is a typical-day planning model, not real-time telemetry)",N/A,N/A,TfL Live Trackbot API / Unified API Line Disruptions feed,None
+Station Geographic Coordinates,Geospatial Analytics,AVAILABLE,data/external/lu_station_coords.csv,N/A (Curated authoritative TfL Station Coordinates),"asc, lat, lon, nlc, station",Already curated and verified in data/external/,None
+Station-to-Station Metric Distances,Geospatial Analytics,DERIVABLE,data/external/lu_station_coords.csv,N/A,"lat, lon",None,None
+Official PTAL (Public Transport Accessibility Level),Geospatial Analytics,REQUIRES EXTERNAL DATA,None,N/A,N/A,TfL WebCAT PTAL GIS Grid Layer,Approval to present 'Underground Inter-Station Spacing Index' as empirical proxy rather than claiming official multi-modal PTAL
+Demand Prediction Targets,Machine Learning,AVAILABLE,All 15 NBT*.xlsx workbooks,Station_Entries,total,None,None
+Leave-One-Year-Out Model Performance,Machine Learning,AVAILABLE,Derived from ML Model Evaluation,N/A,"mae, rmse, r2",None,None
+External Macro Explanatory Variables (Weather/GDP/Strikes),Machine Learning,REQUIRES EXTERNAL DATA,"None (NUMBAT represents normalized typical operational days, not calendar event dates)",N/A,N/A,Met Office London Weather / ONS Economic Indices,"Approval to restrict features to topological and profile features (year, day_type, central distance, fare zone)"
+Maximum Signaling Headway Limits,Optimization,REQUIRES USER INPUT,None,N/A,N/A,TfL Signaling Asset Register,"Approval of maximum frequency cap parameter (Default recommended: 36 tph for automatic lines, 30 tph for conventional lines)"
+Fleet & Depot Operational Constraints,Optimization,REQUIRES USER INPUT,None,N/A,N/A,TfL Rolling Stock Operations & Crew Rosters,Approval to treat +25% headway relief as an analytical 'Unconstrained Fleet Scenario'
