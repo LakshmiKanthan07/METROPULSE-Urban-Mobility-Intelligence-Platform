@@ -1,0 +1,43 @@
+# ==============================================================================
+# METROPULSE — .gitignore
+# Prevents large data files, caches, and logs from exceeding GitHub size limits
+# ==============================================================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large raw NUMBAT Excel datasets (TfL source files)
+data/raw/*.xlsx
+data/raw/*.xls
+data/interim/*
+!data/interim/.gitkeep
+
+# Large processed analytical files (>100MB exceeds GitHub limits)
+data/processed/csv/tube_station_flows.csv
+data/processed/csv/tube_link_loads.csv
+data/processed/csv/tube_link_frequencies.csv
+data/processed/csv/tube_station_boarders.csv
+data/processed/csv/tube_station_alighters.csv
+data/processed/csv/tube_station_entries.csv
+data/processed/csv/tube_station_exits.csv
+data/processed/parquet/*.parquet
+
+# Logs & temporary runtime files
+logs/*.log
+*.log
+.DS_Store
+Thumbs.db

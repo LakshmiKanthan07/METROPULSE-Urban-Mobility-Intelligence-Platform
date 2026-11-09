@@ -1,0 +1,16 @@
+year,day_type,day_type_label,is_weekend
+2023,MON,Monday,False
+2023,TWT,Tue-Wed-Thu,False
+2023,FRI,Friday,False
+2023,SAT,Saturday,True
+2023,SUN,Sunday,True
+2024,MON,Monday,False
+2024,TWT,Tue-Wed-Thu,False
+2024,FRI,Friday,False
+2024,SAT,Saturday,True
+2024,SUN,Sunday,True
+2025,MON,Monday,False
+2025,TWT,Tue-Wed-Thu,False
+2025,FRI,Friday,False
+2025,SAT,Saturday,True
+2025,SUN,Sunday,True

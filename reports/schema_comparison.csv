@@ -1,0 +1,9 @@
+sheet_name,columns_2023_count,columns_2024_count,columns_2025_count,common_columns_count,schema_consistent,divergent_columns,standardization_action
+Link_Loads,113,113,113,113,True,None (100% Identical),Standardized to canonical schema in ETL Stage 2
+Link_Frequencies,113,113,113,112,False,Link Frequency; Link Loads,Standardized to canonical schema in ETL Stage 2
+Line_Boarders,106,106,106,106,True,None (100% Identical),Standardized to canonical schema in ETL Stage 2
+Station_Entries,107,107,107,107,True,None (100% Identical),Standardized to canonical schema in ETL Stage 2
+Station_Exits,107,107,107,107,True,None (100% Identical),Standardized to canonical schema in ETL Stage 2
+Station_Boarders,111,111,111,111,True,None (100% Identical),Standardized to canonical schema in ETL Stage 2
+Station_Alighters,111,111,111,111,True,None (100% Identical),Standardized to canonical schema in ETL Stage 2
+Station_Flows,114,114,114,114,True,None (100% Identical),Standardized to canonical schema in ETL Stage 2

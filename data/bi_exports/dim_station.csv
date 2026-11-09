@@ -1,0 +1,271 @@
+nlc,asc,station,fare_zone
+500,ACTu,Acton Town,3
+502,ALDu,Aldgate,1
+503,ALEu,Aldgate East,1
+505,ALPu,Alperton,4
+506,AMEu,Amersham,9
+507,ANGu,Angel,1
+508,ARCu,Archway,2/3
+509,AGRu,Arnos Grove,4
+510,ARLu,Arsenal,2
+511,BSTu,Baker Street,1
+512,BALu,Balham LU,3
+513,BNKu,Bank and Monument,1
+501,BARu,Barbican,1
+514,BKGu,Barking,4
+515,BDEu,Barkingside,4
+516,BCTu,Barons Court,2
+832,BPSu,Battersea Power Station,1
+517,BAYu,Bayswater,1
+518,BECu,Becontree,5
+519,BPKu,Belsize Park,2
+787,BERu,Bermondsey,2
+520,BNGu,Bethnal Green LU,2
+521,BLFu,Blackfriars LU,1
+522,BHRu,Blackhorse Road,3
+524,BDSu,Bond Street,1
+525,BORu,Borough,1
+526,BOSu,Boston Manor,4
+527,BGRu,Bounds Green,3/4
+528,BWRu,Bow Road,2
+529,BTXu,Brent Cross,3
+778,BRXu,Brixton LU,2
+530,BBBu,Bromley-by-Bow,2/3
+531,BHLu,Buckhurst Hill,5
+532,BURu,Burnt Oak,4
+534,CRDu,Caledonian Road,2
+535,CTNu,Camden Town,2
+788,CWRu,Canada Water,2
+852,CWFu,Canary Wharf LU,2
+884,CNTu,Canning Town,2/3
+536,CSTu,Cannon Street LU,1
+537,CPKu,Canons Park,5
+539,CLFu,Chalfont & Latimer,8
+540,CHFu,Chalk Farm,2
+541,CYLu,Chancery Lane,1
+718,CHXu,Charing Cross LU,1
+543,CHMu,Chesham,9
+544,CHGu,Chigwell,4
+545,CHPu,Chiswick Park,3
+546,CWDu,Chorleywood,7
+547,CPCu,Clapham Common,2
+548,CPNu,Clapham North,2
+549,CPSu,Clapham South,2/3
+550,CFSu,Cockfosters,5
+551,COLu,Colindale,4
+552,CLWu,Colliers Wood,3
+553,COVu,Covent Garden,1
+554,CRXu,Croxley,7
+555,DGEu,Dagenham East,5
+556,DGHu,Dagenham Heathway,5
+557,DEBu,Debden,6
+558,DHLu,Dollis Hill,3
+560,EBYu,Ealing Broadway,3
+561,ECMu,Ealing Common,3
+562,ECTu,Earl's Court,1/2
+563,EACu,East Acton,2
+565,EFYu,East Finchley,3
+566,EHMu,East Ham,3/4
+567,EPYu,East Putney,2/3
+564,ETEu,Eastcote,5
+568,EDGu,Edgware,5
+774,ERBu,Edgware Road (Bak),1
+569,ERDu,Edgware Road (DIS),1
+570,ELEu,Elephant & Castle LU,1/2
+571,EPKu,Elm Park,6
+542,EMBu,Embankment,1
+572,EPPu,Epping,6
+574,EUSu,Euston LU,1
+575,ESQu,Euston Square,1
+576,FLPu,Fairlop,4
+577,FARu,Farringdon,1
+578,FYCu,Finchley Central,4
+579,FRDu,Finchley Road,2
+580,FPKu,Finsbury Park LU,2
+581,FBYu,Fulham Broadway,2
+582,GHLu,Gants Hill,4
+583,GRDu,Gloucester Road,1
+584,GGRu,Golders Green,3
+585,GHRu,Goldhawk Road,2
+586,GSTu,Goodge Street,1
+587,GRHu,Grange Hill,4
+588,GPSu,Great Portland Street,1
+590,GPKu,Green Park,1
+589,GFDu,Greenford,4
+591,GUNu,Gunnersbury,3
+592,HAIu,Hainault,4
+593,HMDu,Hammersmith (DIS),2
+773,HMSu,Hammersmith (H&C),2
+594,HMPu,Hampstead,2/3
+595,HLNu,Hanger Lane,3
+596,HARu,Harlesden,3
+597,HAWu,Harrow & Wealdstone,5
+598,HOHu,Harrow-on-the-Hill,5
+779,HTXu,Hatton Cross,5/6
+781,HRFu,Heathrow Terminal 4 LU,6
+783,HRVu,Heathrow Terminal 5 LU,6
+780,HRCu,Heathrow Terminals 123 LU,6
+601,HNDu,Hendon Central,3/4
+602,HBTu,High Barnet,5
+605,HSTu,High Street Kensington,1
+603,HBYu,Highbury & Islington,2
+604,HIGu,Highgate,3
+606,HDNu,Hillingdon,6
+607,HOLu,Holborn,1
+608,HPKu,Holland Park,2
+609,HRDu,Holloway Road,2
+610,HCHu,Hornchurch,6
+611,HNCu,Hounslow Central,4
+612,HNEu,Hounslow East,4
+613,HNWu,Hounslow West,5
+614,HPCu,Hyde Park Corner,1
+615,ICKu,Ickenham,6
+616,KENu,Kennington,2
+617,KGNu,Kensal Green,2
+618,OLYu,Kensington (Olympia),2
+619,KTNu,Kentish Town,2
+620,KETu,Kenton,4
+621,KEWu,Kew Gardens,3/4
+622,KILu,Kilburn,2
+623,KPKu,Kilburn Park,2
+625,KXXu,King's Cross St. Pancras,1
+624,KBYu,Kingsbury,4
+626,KNBu,Knightsbridge,1
+627,LGRu,Ladbroke Grove,2
+628,LAMu,Lambeth North,1
+629,LANu,Lancaster Gate,1
+630,LATu,Latimer Road,2
+631,LSQu,Leicester Square,1
+632,LEYu,Leyton,3
+633,LYSu,Leytonstone,3/4
+634,LSTu,Liverpool Street LU,1
+635,LONu,London Bridge LU,1
+636,LTNu,Loughton,6
+637,MDVu,Maida Vale,2
+638,MNRu,Manor House,2/3
+639,MANu,Mansion House,1
+640,MARu,Marble Arch,1
+641,MYBu,Marylebone LU,1
+642,MLEu,Mile End,2
+643,MHEu,Mill Hill East,4
+646,MPKu,Moor Park,6/7
+645,MGTu,Moorgate,1
+647,MORu,Morden,4
+648,MCRu,Mornington Crescent,2
+649,NEAu,Neasden,3
+650,NEPu,Newbury Park,4
+831,NIEu,Nine Elms,1
+653,NACu,North Acton,2/3
+654,NELu,North Ealing,3
+789,NOGu,North Greenwich,2/3
+656,NHRu,North Harrow,5
+659,NWBu,North Wembley,4
+655,NFDu,Northfields,3
+657,NHTu,Northolt,5
+660,NWPu,Northwick Park,4
+661,NWDu,Northwood,6
+662,NWHu,Northwood Hills,6
+663,NHGu,Notting Hill Gate,1/2
+664,OAKu,Oakwood,5
+665,OLDu,Old Street,1
+667,OSTu,Osterley,4
+668,OVLu,Oval,2
+669,OXCu,Oxford Circus,1
+670,PADu,Paddington TfL,1
+671,PRYu,Park Royal,3
+672,PGRu,Parsons Green,2
+673,PERu,Perivale,4
+674,PICu,Piccadilly Circus,1
+776,PIMu,Pimlico,1
+675,PINu,Pinner,5
+676,PLWu,Plaistow,3
+677,PRDu,Preston Road,4
+678,PUTu,Putney Bridge,2
+680,QPKu,Queen's Park,2
+679,QBYu,Queensbury,4
+681,QWYu,Queensway,1
+682,RCPu,Ravenscourt Park,2
+683,RAYu,Rayners Lane,5
+684,REDu,Redbridge,4
+685,RPKu,Regent's Park,1
+686,RMDu,Richmond,4
+687,RKYu,Rickmansworth,7
+688,RODu,Roding Valley,4
+690,ROYu,Royal Oak,2
+691,RUIu,Ruislip,6
+692,RUGu,Ruislip Gardens,5
+693,RUMu,Ruislip Manor,6
+694,RSQu,Russell Square,1
+698,SVSu,Seven Sisters,3
+700,SBCu,Shepherd's Bush LU,2
+775,SBMu,Shepherd's Bush Market,2
+702,SSQu,Sloane Square,1
+703,SNBu,Snaresbrook,4
+704,SELu,South Ealing,3
+707,SHRu,South Harrow,5
+708,SKNu,South Kensington,1
+709,SKTu,South Kenton,4
+710,SRPu,South Ruislip,5
+711,SWMu,South Wimbledon,3/4
+712,SWFu,South Woodford,4
+705,SFSu,Southfields,3
+706,SGTu,Southgate,4
+784,SWKu,Southwark,1
+695,SJPu,St. James's Park,1
+696,SJWu,St. John's Wood,2
+697,STPu,St. Paul's,1
+713,STBu,Stamford Brook,2
+714,STAu,Stanmore,5
+715,STGu,Stepney Green,2
+716,STKu,Stockwell,2
+717,SPKu,Stonebridge Park,3
+719,SFDu,Stratford,2/3
+720,SHLu,Sudbury Hill,4
+721,STNu,Sudbury Town,4
+723,SWCu,Swiss Cottage,2
+724,TEMu,Temple,1
+725,THBu,Theydon Bois,6
+726,TBEu,Tooting Bec,3
+727,TBYu,Tooting Broadway,3
+728,TCRu,Tottenham Court Road,1
+729,TTHu,Tottenham Hale LU,3
+730,TOTu,Totteridge & Whetstone,4
+731,THLu,Tower Hill,1
+733,TPKu,Tufnell Park,2
+734,TGRu,Turnham Green,2/3
+735,TPLu,Turnpike Lane,3
+736,UPMu,Upminster,6
+737,UPBu,Upminster Bridge,6
+738,UPYu,Upney,4
+739,UPKu,Upton Park,3
+740,UXBu,Uxbridge,6
+777,VUXu,Vauxhall LU,1/2
+741,VICu,Victoria LU,1
+742,WALu,Walthamstow Central,3
+743,WANu,Wanstead,4
+745,WSTu,Warren Street,1
+746,WARu,Warwick Avenue,2
+747,WLOu,Waterloo LU,1
+748,WATu,Watford,7
+751,WEMu,Wembley Central,4
+752,WPKu,Wembley Park,4
+753,WACu,West Acton,3
+755,WBTu,West Brompton,2
+756,WFYu,West Finchley,4
+757,WHMu,West Ham,2/3
+758,WHDu,West Hampstead LU,2
+759,WHRu,West Harrow,5
+760,WKNu,West Kensington,2
+762,WRPu,West Ruislip,6
+754,WBPu,Westbourne Park,2
+761,WMSu,Westminster,1
+764,WCTu,White City,2
+763,WCLu,Whitechapel,2
+765,WLGu,Willesden Green,2/3
+766,WJNu,Willesden Junction,2/3
+767,WIMu,Wimbledon,3
+768,WMPu,Wimbledon Park,3
+770,WGNu,Wood Green,3
+599,WDLu,Wood Lane,2
+769,WFDu,Woodford,4
+771,WSPu,Woodside Park,4

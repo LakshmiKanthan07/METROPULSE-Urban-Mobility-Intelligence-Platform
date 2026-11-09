@@ -1,0 +1,9 @@
+dataset,total_rows,total_columns,total_missing_values,duplicate_records,negative_values,status
+tube_link_loads,1051680,26,0,0,0,PASS
+tube_link_frequencies,1051680,26,0,0,0,PASS
+tube_line_boarders,14400,18,0,0,0,PASS
+tube_station_entries,388800,19,0,0,0,PASS
+tube_station_exits,388800,19,0,0,0,PASS
+tube_station_boarders,1013760,23,0,0,0,PASS
+tube_station_alighters,1013760,23,0,0,0,PASS
+tube_station_flows,5458080,26,1920,9600,0,FLAGGED

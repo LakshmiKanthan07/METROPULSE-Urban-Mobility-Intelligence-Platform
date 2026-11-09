@@ -1,0 +1,9 @@
+dataset,key_columns_checked,duplicate_count,total_rows,pct_duplicate
+tube_link_loads,link; direction; time_interval; year; day_type,0,1051680,0.0
+tube_link_frequencies,link; direction; time_interval; year; day_type,0,1051680,0.0
+tube_line_boarders,line_code; time_interval; year; day_type,0,14400,0.0
+tube_station_entries,asc; time_interval; year; day_type,0,388800,0.0
+tube_station_exits,asc; time_interval; year; day_type,0,388800,0.0
+tube_station_boarders,asc; line; direction; platform; time_interval; year; day_type,0,1013760,0.0
+tube_station_alighters,asc; line; direction; platform; time_interval; year; day_type,0,1013760,0.0
+tube_station_flows,complex_nlc; from_asc; from_node; to_asc; to_node; movement; time_interval; year; day_type,9600,5458080,0.1759

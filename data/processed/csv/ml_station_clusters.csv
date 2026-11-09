@@ -1,0 +1,271 @@
+nlc,asc,station,year,day_type,cluster_kmeans,cluster_dbscan,cluster_hierarchical,cluster_label
+500,ACTu,Acton Town,2024,MON,0,0,1,Residential Feeder
+501,BARu,Barbican,2024,MON,2,0,2,High-Demand Commuter
+502,ALDu,Aldgate,2024,MON,2,-1,2,High-Demand Commuter
+503,ALEu,Aldgate East,2024,MON,2,1,2,High-Demand Commuter
+505,ALPu,Alperton,2024,MON,0,0,1,Residential Feeder
+506,AMEu,Amersham,2024,MON,0,0,1,Residential Feeder
+507,ANGu,Angel,2024,MON,2,0,2,High-Demand Commuter
+508,ARCu,Archway,2024,MON,0,0,1,Residential Feeder
+509,AGRu,Arnos Grove,2024,MON,0,0,1,Residential Feeder
+510,ARLu,Arsenal,2024,MON,0,0,1,Residential Feeder
+511,BSTu,Baker Street,2024,MON,2,-1,2,High-Demand Commuter
+512,BALu,Balham LU,2024,MON,0,0,1,Residential Feeder
+513,BNKu,Bank and Monument,2024,MON,1,-1,0,Major Interchange Hub
+514,BKGu,Barking,2024,MON,0,-1,1,Residential Feeder
+515,BDEu,Barkingside,2024,MON,0,0,1,Residential Feeder
+516,BCTu,Barons Court,2024,MON,0,0,2,Residential Feeder
+517,BAYu,Bayswater,2024,MON,0,0,2,Residential Feeder
+518,BECu,Becontree,2024,MON,0,0,1,Residential Feeder
+519,BPKu,Belsize Park,2024,MON,2,0,2,High-Demand Commuter
+520,BNGu,Bethnal Green LU,2024,MON,0,0,2,Residential Feeder
+521,BLFu,Blackfriars LU,2024,MON,2,1,2,High-Demand Commuter
+522,BHRu,Blackhorse Road,2024,MON,0,-1,1,Residential Feeder
+524,BDSu,Bond Street,2024,MON,1,-1,0,Major Interchange Hub
+525,BORu,Borough,2024,MON,2,0,2,High-Demand Commuter
+526,BOSu,Boston Manor,2024,MON,0,0,1,Residential Feeder
+527,BGRu,Bounds Green,2024,MON,0,0,1,Residential Feeder
+528,BWRu,Bow Road,2024,MON,0,0,1,Residential Feeder
+529,BTXu,Brent Cross,2024,MON,0,0,1,Residential Feeder
+530,BBBu,Bromley-by-Bow,2024,MON,0,0,1,Residential Feeder
+531,BHLu,Buckhurst Hill,2024,MON,0,0,1,Residential Feeder
+532,BURu,Burnt Oak,2024,MON,0,0,1,Residential Feeder
+534,CRDu,Caledonian Road,2024,MON,0,0,2,Residential Feeder
+535,CTNu,Camden Town,2024,MON,2,3,2,High-Demand Commuter
+536,CSTu,Cannon Street LU,2024,MON,2,0,2,High-Demand Commuter
+537,CPKu,Canons Park,2024,MON,0,0,1,Residential Feeder
+539,CLFu,Chalfont & Latimer,2024,MON,0,0,1,Residential Feeder
+540,CHFu,Chalk Farm,2024,MON,0,0,2,Residential Feeder
+541,CYLu,Chancery Lane,2024,MON,2,2,2,High-Demand Commuter
+542,EMBu,Embankment,2024,MON,2,3,2,High-Demand Commuter
+543,CHMu,Chesham,2024,MON,0,0,1,Residential Feeder
+544,CHGu,Chigwell,2024,MON,0,0,1,Residential Feeder
+545,CHPu,Chiswick Park,2024,MON,0,0,1,Residential Feeder
+546,CWDu,Chorleywood,2024,MON,0,0,1,Residential Feeder
+547,CPCu,Clapham Common,2024,MON,0,0,1,Residential Feeder
+548,CPNu,Clapham North,2024,MON,0,0,1,Residential Feeder
+549,CPSu,Clapham South,2024,MON,0,0,1,Residential Feeder
+550,CFSu,Cockfosters,2024,MON,0,0,1,Residential Feeder
+551,COLu,Colindale,2024,MON,0,0,1,Residential Feeder
+552,CLWu,Colliers Wood,2024,MON,0,0,1,Residential Feeder
+553,COVu,Covent Garden,2024,MON,2,-1,2,High-Demand Commuter
+554,CRXu,Croxley,2024,MON,0,0,1,Residential Feeder
+555,DGEu,Dagenham East,2024,MON,0,0,1,Residential Feeder
+556,DGHu,Dagenham Heathway,2024,MON,0,0,1,Residential Feeder
+557,DEBu,Debden,2024,MON,0,0,1,Residential Feeder
+558,DHLu,Dollis Hill,2024,MON,0,0,1,Residential Feeder
+560,EBYu,Ealing Broadway,2024,MON,0,-1,2,Residential Feeder
+561,ECMu,Ealing Common,2024,MON,0,0,1,Residential Feeder
+562,ECTu,Earl's Court,2024,MON,2,-1,2,High-Demand Commuter
+563,EACu,East Acton,2024,MON,0,0,2,Residential Feeder
+564,ETEu,Eastcote,2024,MON,0,0,1,Residential Feeder
+565,EFYu,East Finchley,2024,MON,0,0,1,Residential Feeder
+566,EHMu,East Ham,2024,MON,0,-1,1,Residential Feeder
+567,EPYu,East Putney,2024,MON,0,0,1,Residential Feeder
+568,EDGu,Edgware,2024,MON,0,0,1,Residential Feeder
+569,ERDu,Edgware Road (DIS),2024,MON,2,0,2,High-Demand Commuter
+570,ELEu,Elephant & Castle LU,2024,MON,2,-1,2,High-Demand Commuter
+571,EPKu,Elm Park,2024,MON,0,0,1,Residential Feeder
+572,EPPu,Epping,2024,MON,0,0,1,Residential Feeder
+574,EUSu,Euston LU,2024,MON,2,-1,2,High-Demand Commuter
+575,ESQu,Euston Square,2024,MON,2,0,2,High-Demand Commuter
+576,FLPu,Fairlop,2024,MON,0,0,1,Residential Feeder
+577,FARu,Farringdon,2024,MON,1,-1,0,Major Interchange Hub
+578,FYCu,Finchley Central,2024,MON,0,0,1,Residential Feeder
+579,FRDu,Finchley Road,2024,MON,0,0,2,Residential Feeder
+580,FPKu,Finsbury Park LU,2024,MON,0,-1,1,Residential Feeder
+581,FBYu,Fulham Broadway,2024,MON,2,0,2,High-Demand Commuter
+582,GHLu,Gants Hill,2024,MON,0,0,1,Residential Feeder
+583,GRDu,Gloucester Road,2024,MON,2,1,2,High-Demand Commuter
+584,GGRu,Golders Green,2024,MON,0,0,1,Residential Feeder
+585,GHRu,Goldhawk Road,2024,MON,0,0,1,Residential Feeder
+586,GSTu,Goodge Street,2024,MON,2,0,2,High-Demand Commuter
+587,GRHu,Grange Hill,2024,MON,0,0,1,Residential Feeder
+588,GPSu,Great Portland Street,2024,MON,2,0,2,High-Demand Commuter
+589,GFDu,Greenford,2024,MON,0,0,1,Residential Feeder
+590,GPKu,Green Park,2024,MON,2,-1,0,High-Demand Commuter
+591,GUNu,Gunnersbury,2024,MON,2,0,2,High-Demand Commuter
+592,HAIu,Hainault,2024,MON,0,0,1,Residential Feeder
+593,HMDu,Hammersmith (DIS),2024,MON,2,-1,2,High-Demand Commuter
+594,HMPu,Hampstead,2024,MON,0,0,2,Residential Feeder
+595,HLNu,Hanger Lane,2024,MON,0,0,1,Residential Feeder
+596,HARu,Harlesden,2024,MON,0,0,2,Residential Feeder
+597,HAWu,Harrow & Wealdstone,2024,MON,0,0,1,Residential Feeder
+598,HOHu,Harrow-on-the-Hill,2024,MON,0,0,1,Residential Feeder
+599,WDLu,Wood Lane,2024,MON,2,0,2,High-Demand Commuter
+601,HNDu,Hendon Central,2024,MON,0,0,1,Residential Feeder
+602,HBTu,High Barnet,2024,MON,0,0,1,Residential Feeder
+603,HBYu,Highbury & Islington,2024,MON,2,0,2,High-Demand Commuter
+604,HIGu,Highgate,2024,MON,0,0,1,Residential Feeder
+605,HSTu,High Street Kensington,2024,MON,2,0,2,High-Demand Commuter
+606,HDNu,Hillingdon,2024,MON,0,0,1,Residential Feeder
+607,HOLu,Holborn,2024,MON,2,-1,0,High-Demand Commuter
+608,HPKu,Holland Park,2024,MON,0,0,2,Residential Feeder
+609,HRDu,Holloway Road,2024,MON,0,0,2,Residential Feeder
+610,HCHu,Hornchurch,2024,MON,0,0,1,Residential Feeder
+611,HNCu,Hounslow Central,2024,MON,0,0,1,Residential Feeder
+612,HNEu,Hounslow East,2024,MON,0,0,1,Residential Feeder
+613,HNWu,Hounslow West,2024,MON,0,0,1,Residential Feeder
+614,HPCu,Hyde Park Corner,2024,MON,2,0,2,High-Demand Commuter
+615,ICKu,Ickenham,2024,MON,0,0,1,Residential Feeder
+616,KENu,Kennington,2024,MON,0,0,1,Residential Feeder
+617,KGNu,Kensal Green,2024,MON,0,0,1,Residential Feeder
+618,OLYu,Kensington (Olympia),2024,MON,2,-1,2,High-Demand Commuter
+619,KTNu,Kentish Town,2024,MON,0,0,2,Residential Feeder
+620,KETu,Kenton,2024,MON,0,0,1,Residential Feeder
+621,KEWu,Kew Gardens,2024,MON,0,0,1,Residential Feeder
+622,KILu,Kilburn,2024,MON,0,0,1,Residential Feeder
+623,KPKu,Kilburn Park,2024,MON,0,0,1,Residential Feeder
+624,KBYu,Kingsbury,2024,MON,0,0,1,Residential Feeder
+625,KXXu,King's Cross St. Pancras,2024,MON,1,-1,0,Major Interchange Hub
+626,KNBu,Knightsbridge,2024,MON,2,-1,2,High-Demand Commuter
+627,LGRu,Ladbroke Grove,2024,MON,2,0,2,High-Demand Commuter
+628,LAMu,Lambeth North,2024,MON,2,0,2,High-Demand Commuter
+629,LANu,Lancaster Gate,2024,MON,0,0,2,Residential Feeder
+630,LATu,Latimer Road,2024,MON,2,0,2,High-Demand Commuter
+631,LSQu,Leicester Square,2024,MON,2,-1,2,High-Demand Commuter
+632,LEYu,Leyton,2024,MON,0,0,1,Residential Feeder
+633,LYSu,Leytonstone,2024,MON,0,0,1,Residential Feeder
+634,LSTu,Liverpool Street LU,2024,MON,1,-1,0,Major Interchange Hub
+635,LONu,London Bridge LU,2024,MON,1,-1,0,Major Interchange Hub
+636,LTNu,Loughton,2024,MON,0,0,1,Residential Feeder
+637,MDVu,Maida Vale,2024,MON,0,0,1,Residential Feeder
+638,MNRu,Manor House,2024,MON,0,0,1,Residential Feeder
+639,MANu,Mansion House,2024,MON,2,0,2,High-Demand Commuter
+640,MARu,Marble Arch,2024,MON,2,0,2,High-Demand Commuter
+641,MYBu,Marylebone LU,2024,MON,0,-1,1,Residential Feeder
+642,MLEu,Mile End,2024,MON,2,0,2,High-Demand Commuter
+643,MHEu,Mill Hill East,2024,MON,0,0,1,Residential Feeder
+645,MGTu,Moorgate,2024,MON,2,-1,0,High-Demand Commuter
+646,MPKu,Moor Park,2024,MON,0,0,1,Residential Feeder
+647,MORu,Morden,2024,MON,0,-1,1,Residential Feeder
+648,MCRu,Mornington Crescent,2024,MON,2,0,2,High-Demand Commuter
+649,NEAu,Neasden,2024,MON,0,0,1,Residential Feeder
+650,NEPu,Newbury Park,2024,MON,0,0,1,Residential Feeder
+653,NACu,North Acton,2024,MON,0,0,2,Residential Feeder
+654,NELu,North Ealing,2024,MON,0,0,1,Residential Feeder
+655,NFDu,Northfields,2024,MON,0,0,1,Residential Feeder
+656,NHRu,North Harrow,2024,MON,0,0,1,Residential Feeder
+657,NHTu,Northolt,2024,MON,0,0,1,Residential Feeder
+659,NWBu,North Wembley,2024,MON,0,0,1,Residential Feeder
+660,NWPu,Northwick Park,2024,MON,0,0,2,Residential Feeder
+661,NWDu,Northwood,2024,MON,0,0,1,Residential Feeder
+662,NWHu,Northwood Hills,2024,MON,0,0,1,Residential Feeder
+663,NHGu,Notting Hill Gate,2024,MON,2,0,2,High-Demand Commuter
+664,OAKu,Oakwood,2024,MON,0,0,1,Residential Feeder
+665,OLDu,Old Street,2024,MON,2,3,2,High-Demand Commuter
+667,OSTu,Osterley,2024,MON,0,0,1,Residential Feeder
+668,OVLu,Oval,2024,MON,0,0,2,Residential Feeder
+669,OXCu,Oxford Circus,2024,MON,1,-1,0,Major Interchange Hub
+670,PADu,Paddington TfL,2024,MON,1,-1,0,Major Interchange Hub
+671,PRYu,Park Royal,2024,MON,0,0,2,Residential Feeder
+672,PGRu,Parsons Green,2024,MON,0,0,1,Residential Feeder
+673,PERu,Perivale,2024,MON,0,0,1,Residential Feeder
+674,PICu,Piccadilly Circus,2024,MON,2,-1,2,High-Demand Commuter
+675,PINu,Pinner,2024,MON,0,0,1,Residential Feeder
+676,PLWu,Plaistow,2024,MON,0,0,1,Residential Feeder
+677,PRDu,Preston Road,2024,MON,0,0,1,Residential Feeder
+678,PUTu,Putney Bridge,2024,MON,0,0,2,Residential Feeder
+679,QBYu,Queensbury,2024,MON,0,0,1,Residential Feeder
+680,QPKu,Queen's Park,2024,MON,0,0,1,Residential Feeder
+681,QWYu,Queensway,2024,MON,2,0,2,High-Demand Commuter
+682,RCPu,Ravenscourt Park,2024,MON,0,0,2,Residential Feeder
+683,RAYu,Rayners Lane,2024,MON,0,0,1,Residential Feeder
+684,REDu,Redbridge,2024,MON,0,0,1,Residential Feeder
+685,RPKu,Regent's Park,2024,MON,2,0,2,High-Demand Commuter
+686,RMDu,Richmond,2024,MON,0,-1,1,Residential Feeder
+687,RKYu,Rickmansworth,2024,MON,0,0,1,Residential Feeder
+688,RODu,Roding Valley,2024,MON,0,0,1,Residential Feeder
+690,ROYu,Royal Oak,2024,MON,0,0,2,Residential Feeder
+691,RUIu,Ruislip,2024,MON,0,0,1,Residential Feeder
+692,RUGu,Ruislip Gardens,2024,MON,0,0,1,Residential Feeder
+693,RUMu,Ruislip Manor,2024,MON,0,0,1,Residential Feeder
+694,RSQu,Russell Square,2024,MON,2,0,2,High-Demand Commuter
+695,SJPu,St. James's Park,2024,MON,2,2,2,High-Demand Commuter
+696,SJWu,St. John's Wood,2024,MON,2,0,2,High-Demand Commuter
+697,STPu,St. Paul's,2024,MON,2,2,2,High-Demand Commuter
+698,SVSu,Seven Sisters,2024,MON,0,0,1,Residential Feeder
+700,SBCu,Shepherd's Bush LU,2024,MON,2,1,2,High-Demand Commuter
+702,SSQu,Sloane Square,2024,MON,2,1,2,High-Demand Commuter
+703,SNBu,Snaresbrook,2024,MON,0,0,1,Residential Feeder
+704,SELu,South Ealing,2024,MON,0,0,1,Residential Feeder
+705,SFSu,Southfields,2024,MON,0,0,1,Residential Feeder
+706,SGTu,Southgate,2024,MON,0,0,1,Residential Feeder
+707,SHRu,South Harrow,2024,MON,0,0,1,Residential Feeder
+708,SKNu,South Kensington,2024,MON,2,-1,0,High-Demand Commuter
+709,SKTu,South Kenton,2024,MON,0,0,1,Residential Feeder
+710,SRPu,South Ruislip,2024,MON,0,0,1,Residential Feeder
+711,SWMu,South Wimbledon,2024,MON,0,0,1,Residential Feeder
+712,SWFu,South Woodford,2024,MON,0,0,1,Residential Feeder
+713,STBu,Stamford Brook,2024,MON,0,0,1,Residential Feeder
+714,STAu,Stanmore,2024,MON,0,0,1,Residential Feeder
+715,STGu,Stepney Green,2024,MON,2,0,2,High-Demand Commuter
+716,STKu,Stockwell,2024,MON,0,0,1,Residential Feeder
+717,SPKu,Stonebridge Park,2024,MON,0,0,1,Residential Feeder
+718,CHXu,Charing Cross LU,2024,MON,2,1,2,High-Demand Commuter
+719,SFDu,Stratford,2024,MON,1,-1,0,Major Interchange Hub
+720,SHLu,Sudbury Hill,2024,MON,0,0,1,Residential Feeder
+721,STNu,Sudbury Town,2024,MON,0,0,1,Residential Feeder
+723,SWCu,Swiss Cottage,2024,MON,0,0,2,Residential Feeder
+724,TEMu,Temple,2024,MON,2,2,2,High-Demand Commuter
+725,THBu,Theydon Bois,2024,MON,0,0,1,Residential Feeder
+726,TBEu,Tooting Bec,2024,MON,0,0,1,Residential Feeder
+727,TBYu,Tooting Broadway,2024,MON,0,-1,1,Residential Feeder
+728,TCRu,Tottenham Court Road,2024,MON,1,-1,0,Major Interchange Hub
+729,TTHu,Tottenham Hale LU,2024,MON,0,-1,1,Residential Feeder
+730,TOTu,Totteridge & Whetstone,2024,MON,0,0,1,Residential Feeder
+731,THLu,Tower Hill,2024,MON,2,0,2,High-Demand Commuter
+733,TPKu,Tufnell Park,2024,MON,0,0,1,Residential Feeder
+734,TGRu,Turnham Green,2024,MON,0,0,1,Residential Feeder
+735,TPLu,Turnpike Lane,2024,MON,0,0,1,Residential Feeder
+736,UPMu,Upminster,2024,MON,0,0,1,Residential Feeder
+737,UPBu,Upminster Bridge,2024,MON,0,0,1,Residential Feeder
+738,UPYu,Upney,2024,MON,0,0,1,Residential Feeder
+739,UPKu,Upton Park,2024,MON,0,0,1,Residential Feeder
+740,UXBu,Uxbridge,2024,MON,2,0,2,High-Demand Commuter
+741,VICu,Victoria LU,2024,MON,1,-1,0,Major Interchange Hub
+742,WALu,Walthamstow Central,2024,MON,0,-1,1,Residential Feeder
+743,WANu,Wanstead,2024,MON,0,0,1,Residential Feeder
+745,WSTu,Warren Street,2024,MON,2,-1,0,High-Demand Commuter
+746,WARu,Warwick Avenue,2024,MON,0,0,1,Residential Feeder
+747,WLOu,Waterloo LU,2024,MON,1,-1,0,Major Interchange Hub
+748,WATu,Watford,2024,MON,0,0,1,Residential Feeder
+751,WEMu,Wembley Central,2024,MON,0,0,1,Residential Feeder
+752,WPKu,Wembley Park,2024,MON,0,-1,1,Residential Feeder
+753,WACu,West Acton,2024,MON,0,0,1,Residential Feeder
+754,WBPu,Westbourne Park,2024,MON,0,0,2,Residential Feeder
+755,WBTu,West Brompton,2024,MON,2,0,2,High-Demand Commuter
+756,WFYu,West Finchley,2024,MON,0,0,1,Residential Feeder
+757,WHMu,West Ham,2024,MON,0,0,1,Residential Feeder
+758,WHDu,West Hampstead LU,2024,MON,0,-1,1,Residential Feeder
+759,WHRu,West Harrow,2024,MON,0,0,1,Residential Feeder
+760,WKNu,West Kensington,2024,MON,0,0,1,Residential Feeder
+761,WMSu,Westminster,2024,MON,2,-1,0,High-Demand Commuter
+762,WRPu,West Ruislip,2024,MON,0,0,1,Residential Feeder
+763,WCLu,Whitechapel,2024,MON,2,-1,2,High-Demand Commuter
+764,WCTu,White City,2024,MON,2,0,2,High-Demand Commuter
+765,WLGu,Willesden Green,2024,MON,0,0,1,Residential Feeder
+766,WJNu,Willesden Junction,2024,MON,0,0,1,Residential Feeder
+767,WIMu,Wimbledon,2024,MON,0,-1,1,Residential Feeder
+768,WMPu,Wimbledon Park,2024,MON,0,0,1,Residential Feeder
+769,WFDu,Woodford,2024,MON,0,0,1,Residential Feeder
+770,WGNu,Wood Green,2024,MON,0,0,1,Residential Feeder
+771,WSPu,Woodside Park,2024,MON,0,0,1,Residential Feeder
+773,HMSu,Hammersmith (H&C),2024,MON,0,0,2,Residential Feeder
+774,ERBu,Edgware Road (Bak),2024,MON,2,-1,2,High-Demand Commuter
+775,SBMu,Shepherd's Bush Market,2024,MON,0,0,1,Residential Feeder
+776,PIMu,Pimlico,2024,MON,2,0,2,High-Demand Commuter
+777,VUXu,Vauxhall LU,2024,MON,0,-1,2,Residential Feeder
+778,BRXu,Brixton LU,2024,MON,0,-1,1,Residential Feeder
+779,HTXu,Hatton Cross,2024,MON,0,0,1,Residential Feeder
+780,HRCu,Heathrow Terminals 123 LU,2024,MON,0,0,2,Residential Feeder
+781,HRFu,Heathrow Terminal 4 LU,2024,MON,0,0,2,Residential Feeder
+783,HRVu,Heathrow Terminal 5 LU,2024,MON,0,0,2,Residential Feeder
+784,SWKu,Southwark,2024,MON,2,0,2,High-Demand Commuter
+787,BERu,Bermondsey,2024,MON,0,0,1,Residential Feeder
+788,CWRu,Canada Water,2024,MON,0,0,1,Residential Feeder
+789,NOGu,North Greenwich,2024,MON,2,-1,2,High-Demand Commuter
+831,NIEu,Nine Elms,2024,MON,0,0,1,Residential Feeder
+832,BPSu,Battersea Power Station,2024,MON,0,0,2,Residential Feeder
+852,CWFu,Canary Wharf LU,2024,MON,1,-1,0,Major Interchange Hub
+884,CNTu,Canning Town,2024,MON,0,0,1,Residential Feeder
