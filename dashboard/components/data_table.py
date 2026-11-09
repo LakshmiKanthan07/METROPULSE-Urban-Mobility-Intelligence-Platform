@@ -46,3 +46,4 @@ def render_data_table(
         use_container_width=True,
         height=min(400, 38 + len(preview_df) * 35),
     )
+

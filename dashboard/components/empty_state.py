@@ -28,3 +28,4 @@ def render_empty_state(
     </div>
     """
     st.markdown(html, unsafe_allow_html=True)
+

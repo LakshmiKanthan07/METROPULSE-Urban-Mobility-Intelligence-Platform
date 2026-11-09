@@ -348,3 +348,4 @@ def apply_custom_css():
     </style>
     """
     st.markdown(css, unsafe_allow_html=True)
+

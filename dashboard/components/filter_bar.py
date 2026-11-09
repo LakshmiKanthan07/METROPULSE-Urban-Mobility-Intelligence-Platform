@@ -72,3 +72,4 @@ def render_filter_bar(
         idx += 1
 
     return filtered_df, active_filters
+

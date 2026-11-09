@@ -73,3 +73,4 @@ def render_chart_container(
         </div>
         """
         st.markdown(takeaway_html, unsafe_allow_html=True)
+

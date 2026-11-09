@@ -56,3 +56,4 @@ def render_section_header(
     </div>
     """
     st.markdown(header_html, unsafe_allow_html=True)
+

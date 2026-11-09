@@ -62,3 +62,4 @@ def render_sidebar():
             """,
             unsafe_allow_html=True,
         )
+
